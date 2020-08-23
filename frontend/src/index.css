@@ -1,14 +1,36 @@
 html {
-  font-size: 62.5%;
-  box-sizing: border-box;
+	font-size: 62.5%;
+	box-sizing: border-box;
 }
 
 body {
-  font: 1.6rem Helvetica;
-  height: 100vh;
-  margin: 0;
+	font: 1.6rem Helvetica;
+	height: 100vh;
+	margin: 0;
 }
 
 #root {
-  height: 100%;
+	height: 100%;
+}
+
+button {
+	font-size: 1.6rem;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.button {
+	padding: 1rem;
+	border: .1rem #808080 solid;
+	cursor: pointer;
+}
+
+.button:hover {
+	border-color: #404040;
+}
+
+.button.primary {
+	background-color: #f0c040;
 }
